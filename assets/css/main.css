@@ -49,12 +49,11 @@ table {
 body {
 	-webkit-text-size-adjust: none;
 }
-.hourslist {
-	text-align: center;
-	list-style: none;
-	align-content: center;
+.footerlisttitle {
+	text-align:center;
 	
-}
+	
+	}
 mark {
 	background-color: transparent;
 	color: inherit;
@@ -1842,7 +1841,7 @@ input, select, textarea {
 	.icon {
 		text-decoration: none;
 		position: relative;
-		text-decoration: none;
+		
 	}
 
 		.icon:before {
@@ -1979,7 +1978,16 @@ input, select, textarea {
 			vertical-align: middle;
 		}
 
+#servicenav {}
+
+.hourslist{
+	
+	text-decoration: none;
+	list-style: none;
+	text-align: center;
+	align-content: center;
 		
+}
 
 /* Nav */
 	
@@ -2036,6 +2044,8 @@ input, select, textarea {
 					background: #444;
 					color: #fff;
 				}
+
+
 
 	.dropotron {
 		background: #fff;
